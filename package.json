@@ -1,0 +1,37 @@
+{
+  "name": "coldrp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node .",
+    "start-dev": "nodemon .",
+    "build": "tsc",
+    "build-dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lon21/ColdRP-bot.git"
+  },
+  "author": "lon12",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lon21/ColdRP-bot/issues"
+  },
+  "homepage": "https://github.com/lon21/ColdRP-bot#readme",
+  "dependencies": {
+    "@types/figlet": "^1.5.5",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "figlet": "^1.5.2",
+    "google-translate-api-x": "^10.4.1",
+    "i": "^0.3.7",
+    "npm": "^8.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2"
+  }
+}
