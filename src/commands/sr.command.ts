@@ -2,7 +2,7 @@ import BotCommand from '../types/BotCommand';
 import translate from 'google-translate-api-x';
 
 export default <BotCommand> {
-	name: 'sr',
+	name: 'rs',
 	desc: 'Przetłumacz cokolwiek na serbski',
 	aliases: ['serbski'],
 	run: async ({ msg, args }) => {
