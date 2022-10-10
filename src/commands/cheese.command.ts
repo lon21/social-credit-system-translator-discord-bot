@@ -4,6 +4,7 @@ export default <BotCommand> {
 	name: 'cheese',
 	desc: 'Przetłumacz cokolwiek na ser',
 	aliases: ['ser'],
+	category: 'translation',
 	run: async ({ msg, args }) => {
 		if (!args) return msg.reply('Proszę pana, nie mogę przetłumaczyć czegoś czego nie ma!');
 		const message = await msg.reply('Proszę mi dać sekundę, już tłumaczę!');

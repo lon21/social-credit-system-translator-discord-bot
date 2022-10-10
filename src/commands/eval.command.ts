@@ -6,6 +6,7 @@ export default <BotCommand>{
 	name: 'eval',
 	desc: 'Wykonaj kod',
 	ownerOnly: true,
+	category: 'dev',
 	run: async ({ msg, args }) => {
 		try {
 			const toEval = args.join(' ');

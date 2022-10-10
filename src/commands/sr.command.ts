@@ -5,6 +5,7 @@ export default <BotCommand> {
 	name: 'rs',
 	desc: 'Przetłumacz cokolwiek na serbski',
 	aliases: ['serbski'],
+	category: 'translation',
 	run: async ({ msg, args }) => {
 		if (!args) return msg.reply('Proszę pana, nie mogę przetłumaczyć czegoś czego nie ma!');
 		const message = await msg.reply('Proszę mi dać sekundę, już tłumaczę!');

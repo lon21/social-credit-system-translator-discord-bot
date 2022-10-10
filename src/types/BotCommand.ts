@@ -10,5 +10,6 @@ export default interface BotCommand {
 	aliases?: string[];
 	desc: string;
 	ownerOnly?: boolean;
+	category: 'translation' | 'dev' | 'info';
 	run: (BotCommandRunArguments: BotCommandRunArguments) => Promise<any>;
 }
